@@ -1,0 +1,32 @@
+.header {
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+
+  background-color: black;
+}
+
+.left-section {
+  background-color: lightblue;
+  width: 150px;
+}
+
+.middle-section {
+  background-color: lightpink;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+}
+
+.right-section {
+  background-color: lightblue;
+  width: 200px;
+}

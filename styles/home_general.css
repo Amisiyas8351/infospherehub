@@ -1,0 +1,11 @@
+body { /*leave this part as it is, don't add the "." before the body because that's how you target the body*/
+  font-family: Roboto;
+  margin: 0;
+  background-color: rgb(0, 0, 69);
+}
+
+@media screen and (max-width: 280px) {
+  body {
+    min-width: 280px;
+  }
+}

@@ -1,0 +1,144 @@
+/*Cover photo section*/
+
+.cover_image_container {
+  display: flex;
+  justify-content: center;
+}
+  
+.cover_image {
+  margin-top: 120px;
+  border-radius: 20px;
+  width: 90%;
+  box-shadow: 0px 0px 10px 4px rgb(255, 196, 101);
+  border-radius: 20px;
+}
+
+/*Mission Statement Section*/
+
+.ms_parent_container { /*The center alignment container*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ms_secondary_container {
+  display: flex;
+  margin-top: 145px;
+  width: 85%;
+}
+
+.ms_paragraph_container {
+  width: 250%;
+}
+
+.ms_paragraph_secondary_container {
+  color: pink;
+  padding: 30px;
+  box-shadow: 0px 0px 10px 4px pink;
+  border-radius: 20px;
+}
+  
+.ms_title {
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-align: center;
+}
+  
+.ms_paragraph {
+  font-weight: 500;
+  line-height: 2;
+}
+  
+/*Images for mission statement section*/
+  
+.ms_images_container {
+  margin-top: 7;
+  width: 250%;
+  height: 30%;
+}
+  
+.ms_images {
+  width: 90%;
+}
+
+/* Section divider */
+  
+.section_divider {
+  margin-top: 180px;
+  border-top-style: solid;
+  border-top-color: rgb(255, 196, 101);
+  border-top-width: 2px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1440px) {
+  .ms_paragraph {
+    font-size: calc(16px + 6 * ((100vw - 1440px) / 400));
+  }
+
+  .ms_title {
+    font-size: calc(30px + 12 * ((100vw - 1440px) / 400));
+  }
+
+  .ms_images_container {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .ms_images_container {
+    display: none;
+  }
+
+  .ms_images {
+    display: none;
+  }
+
+  .ms_paragraph_container {
+    width: 200%;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .ms_secondary_container {
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .ms_paragraph_container {
+    width: 100%;
+  }
+
+  .ms_images_container {
+    width: 100%;
+    display: block;
+  }
+
+  .ms_images {
+    width: 100%;
+    display: inline;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .ms_images_container {
+    display: none;
+  }
+
+  .ms_images {
+    display: none;
+  }
+
+  .ms_secondary_container {
+    margin-top: 125px;
+  }
+}
+
+@media (max-width: 283px) {
+  .ms_title {
+    margin-left: -19px;
+  }
+}

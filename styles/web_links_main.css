@@ -1,0 +1,458 @@
+/*Title Section*/
+
+.title_container {
+  margin-top: 90px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 10px 4px rgb(255, 196, 101);
+  border-radius: 20px;
+}
+
+.in_page_title {
+  color: rgb(255, 196, 101);
+  font-weight: 700;
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+  padding: 20px;
+}
+
+/*All content section*/
+
+.all_content_parent_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin-top: 90px;
+}
+
+/*Left section*/
+
+.left_container {
+  width: 100%;
+}
+
+/*Right section*/
+
+.right_container {
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* link 1 */
+
+.link_container_1 { /* the first container for the left section */
+  box-shadow: 0px 0px 10px 4px rgb(215, 186, 255);
+  border-radius: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.link_inner_container_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_1 {
+  color: rgb(215, 186, 255);
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+}
+
+.paragraph_container_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph_1 {
+  width: fit-content;
+  text-align: center;
+  color: rgb(215, 186, 255);
+  font-weight: 500;
+}
+
+/* link 2 */
+
+.link_container_2 { /* the container for the first link */
+  box-shadow: 0px 0px 10px 4px rgb(255, 140, 140);
+  border-radius: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+.link_inner_container_2 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_2 {
+  color: rgb(255, 140, 140);
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+}
+
+.paragraph_container_2 {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph_2 {
+  width: fit-content;
+  text-align: center;
+  color: rgb(255, 140, 140);
+  font-weight: 500;
+}
+
+/* link 3 */
+
+.link_container_3 { /* the container for the first link */
+  box-shadow: 0px 0px 10px 4px rgb(215, 186, 255);
+  border-radius: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+.link_inner_container_3 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_3 {
+  color: rgb(215, 186, 255);
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+}
+
+.paragraph_container_3 {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph_3 {
+  width: fit-content;
+  text-align: center;
+  color: rgb(215, 186, 255);
+  font-weight: 500;
+}
+
+/* link 4 */
+
+.link_container_4 { /* the container for the first link */
+  box-shadow: 0px 0px 10px 4px rgb(255, 140, 140);
+  border-radius: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+.link_inner_container_4 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_4 {
+  color: rgb(255, 140, 140);
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+}
+
+.paragraph_container_4 {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph_4 {
+  width: fit-content;
+  text-align: center;
+  color: rgb(255, 140, 140);
+  font-weight: 500;
+}
+
+/* link 5 */
+
+.link_container_5 { /* the container for the first link */
+  box-shadow: 0px 0px 10px 4px rgb(215, 186, 255);
+  border-radius: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+.link_inner_container_5 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_5 {
+  color: rgb(215, 186, 255);
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+}
+
+.paragraph_container_5 {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph_5 {
+  width: fit-content;
+  text-align: center;
+  color: rgb(215, 186, 255);
+  font-weight: 500;
+}
+
+/* link 6 */
+
+.link_container_6 { /*the container for the first link of the right section*/
+  box-shadow: 0px 0px 10px 4px rgb(255, 140, 140);
+  border-radius: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.link_inner_container_6 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_6 {
+  color: rgb(255, 140, 140);
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+}
+
+.paragraph_container_6 {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph_6 {
+  width: fit-content;
+  text-align: center;
+  color: rgb(255, 140, 140);
+  font-weight: 500;
+}
+
+/* link 7 */
+
+.link_container_7 { /* the container for the first link */
+  box-shadow: 0px 0px 10px 4px rgb(215, 186, 255);
+  border-radius: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+.link_inner_container_7 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_7 {
+  color: rgb(215, 186, 255);
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+}
+
+.paragraph_container_7 {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph_7 {
+  width: fit-content;
+  text-align: center;
+  color: rgb(215, 186, 255);
+  font-weight: 500;
+}
+
+/* link 8 */
+
+.link_container_8 { /* the container for the first link */
+  box-shadow: 0px 0px 10px 4px rgb(255, 140, 140);
+  border-radius: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+.link_inner_container_8 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_8 {
+  color: rgb(255, 140, 140);
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+}
+
+.paragraph_container_8 {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph_8 {
+  width: fit-content;
+  text-align: center;
+  color: rgb(255, 140, 140);
+  font-weight: 500;
+}
+
+/* link 9 */
+
+.link_container_9 { /* the container for the first link */
+  box-shadow: 0px 0px 10px 4px rgb(215, 186, 255);
+  border-radius: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+.link_inner_container_9 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_9 {
+  color: rgb(215, 186, 255);
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+}
+
+.paragraph_container_9 {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph_9 {
+  width: fit-content;
+  text-align: center;
+  color: rgb(215, 186, 255);
+  font-weight: 500;
+}
+
+/* link 10 */
+
+.link_container_10 { /* the container for the first link */
+  box-shadow: 0px 0px 10px 4px rgb(255, 140, 140);
+  border-radius: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+.link_inner_container_10 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_10 {
+  color: rgb(255, 140, 140);
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+}
+
+.paragraph_container_10 {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph_10 {
+  width: fit-content;
+  text-align: center;
+  color: rgb(255, 140, 140);
+  font-weight: 500;
+}
+
+@media (min-width: 1440px) {
+  .paragraph_1, .paragraph_2, .paragraph_3, .paragraph_4, .paragraph_5, 
+  .paragraph_6, .paragraph_7, .paragraph_8, .paragraph_9, .paragraph_10 {
+    font-size: calc(16px + 6 * ((100vw - 1440px) / 400));
+  }
+
+  .link_1, .link_2, .link_3, .link_4, .link_5, 
+  .link_6, .link_7, .link_8, .link_9, .link_10 {
+    font-size: calc(26px + 12 * ((100vw - 1440px) / 400));
+  }
+
+  .in_page_title {
+    font-size: calc(40px + 18 * ((100vw - 1440px) / 400));
+  }
+
+}
+
+@media (max-width: 358px) {
+  .in_page_title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 300px) {
+  .in_page_title {
+    font-size: 26px;
+  }
+}

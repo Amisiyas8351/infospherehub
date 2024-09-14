@@ -1,0 +1,191 @@
+/* In page title */
+
+.in_page_title_parent_container {
+  margin-top: 90px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 10px 4px rgb(255, 196, 101);
+  border-radius: 20px;
+}
+
+.in_page_title {
+  color: rgb(255, 196, 101);
+  font-weight: 700;
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+  padding: 20px;
+}
+
+/*Main body*/
+
+.main_body_parent_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 90px;
+  row-gap: 40px;
+}
+
+/*Odd numbered videos*/
+
+.video_container_1, .video_container_3, .video_container_5, .video_container_7, .video_container_9 {
+  box-shadow: 0px 0px 10px 4px orange;
+  border-radius: 20px;
+  padding: 10px;
+  width: 70%;
+}
+
+.image_1, .image_3, .image_5, .image_7, .image_9 {
+  width: 100%;
+}
+
+.yt_link_1, .yt_link_3, .yt_link_5, .yt_link_7, .yt_link_9 {
+  text-align: center;
+}
+
+.video_title_link_1, .video_title_link_3, .video_title_link_5, .video_title_link_7, .video_title_link_9 {
+  color: orange;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.description_1, .description_3, .description_5, .description_7, .description_9 {
+  text-align: center;
+  color: orange;
+  font-weight: 500;
+}
+
+/*Even numbered videos*/
+
+.video_container_2, .video_container_4, .video_container_6, .video_container_8 {
+  box-shadow: 0px 0px 10px 4px white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 70%;
+}
+
+.image_2, .image_4, .image_6, .image_8 {
+  width: 100%;
+}
+
+.yt_link_2, .yt_link_4, .yt_link_6, .yt_link_8 {
+  text-align: center;
+}
+
+.video_title_link_2, .video_title_link_4, .video_title_link_6, .video_title_link_8 {
+  color: white;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.description_2, .description_4, .description_6, .description_8 {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+/* media queries */
+
+@media (min-width: 1440px) {
+  .in_page_title {
+    font-size: calc(40px + 18 * ((100vw - 1440px) / 400));
+  }
+
+  .video_title_link_1, .video_title_link_2, .video_title_link_3, .video_title_link_4,
+  .video_title_link_5, .video_title_link_6, .video_title_link_7, .video_title_link_7,
+  .video_title_link_9, .video_title_link_10 {
+    font-size: calc(26px + 12 * ((100vw - 1440px) / 400));
+  }
+
+  .description_1, .description_2, .description_3, .description_4,
+  .description_5, .description_6, .description_7, .description_8,
+  .description_9, .description_10 {
+    font-size: calc(16px + 6 * ((100vw - 1440px) / 400));
+  }
+}
+
+@media (max-width: 1024px) {
+  .main_body_parent_container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .video_container_3, .video_container_6, .video_container_7 {
+    box-shadow: 0px 0px 10px 4px white;
+  }
+
+  .video_container_4, .video_container_5, .video_container_8, .video_container_9 {
+    box-shadow: 0px 0px 10px 4px orange;
+  }
+
+  .video_container_3, .video_title_link_3, .description_3 {
+    color: white;
+  }
+
+  .video_container_4, .video_title_link_4, .description_4 {
+    color: orange;
+  }
+
+  .video_container_5, .video_title_link_5, .description_5 {
+    color: orange
+  }
+
+  .video_container_6, .video_title_link_6, .description_6 {
+    color: white;
+  }
+
+  .video_container_7, .video_title_link_7, .description_7 {
+    color: white;
+  }
+
+  .video_container_8, .video_title_link_8, .description_8 {
+    color: orange;
+  }
+
+  .video_container_9, .video_title_link_9, .description_9 {
+    color: orange;
+  }
+}
+
+@media (max-width: 450px) {
+  .main_body_parent_container {
+    grid-template-columns: 1fr;
+  }
+
+  .video_container_3, .video_container_7 {
+    box-shadow: 0px 0px 10px 4px orange;
+  }
+
+  .video_container_4, .video_container_8{
+    box-shadow: 0px 0px 10px 4px white;
+  }
+
+  .video_container_3, .video_title_link_3, .description_3 {
+    color: orange;
+  }
+
+  .video_container_4, .video_title_link_4, .description_4 {
+    color: white;
+  }
+
+  .video_container_7, .video_title_link_7, .description_7 {
+    color: orange;
+  }
+
+  .video_container_8, .video_title_link_8, .description_8 {
+    color: white;
+  }
+}
+
+@media (max-width: 358px) {
+  .in_page_title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 300px) {
+  .in_page_title {
+    font-size: 26px;
+  }
+}

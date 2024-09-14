@@ -1,0 +1,250 @@
+/* general stuff, titles, disclaimer */
+
+.title_disclaimer_section {
+  color: rgb(255, 196, 101);
+  margin-top: 90px;
+  box-shadow: 0px 0px 10px 4px rgb(255, 196, 101);
+  border-radius: 20px;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 35px;
+  padding-top: 5px;
+}
+
+.in_page_title {
+  color: rgb(255, 196, 101);
+  font-weight: 700;
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.disclaimer_section {
+  margin-top: -20px;
+}
+
+.disclaimer {
+  text-align: center;
+  color: rgb(255, 196, 101);
+  font-weight: 900;
+}
+
+.all_content_parent_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 160px;
+  margin-top: 80px;
+  justify-items: center;
+}
+
+/* grad plan 1 section */
+
+.grad_plan_1 {
+  box-shadow: 0px 0px 10px 4px rgb(159, 218, 255);
+  border-radius: 20px;
+  width: 60%;
+  padding: 30px;
+  color: rgb(159, 218, 255);
+}
+
+.blurred_image_1 {
+  width: 100%;
+}
+
+.title_1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: -10px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+
+.description_1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.link_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_gp_1 {
+  color: rgb(159, 218, 255);
+  font-weight: 700;
+}
+
+/* grad plan 2 section */
+
+.grad_plan_2 {
+  box-shadow: 0px 0px 10px 4px rgb(255, 253, 129);
+  border-radius: 20px;
+  width: 60%;
+  padding: 30px;
+  color:  rgb(255, 253, 129);
+}
+
+.blurred_image_2 {
+  width: 100%
+}
+
+.title_2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: -10px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+
+.description_2 {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.link_2 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_gp_2 {
+  color: rgb(255, 253, 129);
+  font-weight: 700;
+}
+
+/* grad plan 3 section */
+
+.grad_plan_3 {
+  box-shadow: 0px 0px 10px 4px rgb(255, 253, 129);
+  border-radius: 20px;
+  width: 60%;
+  padding: 30px;
+  color:  rgb(255, 253, 129);
+}
+
+.blurred_image_3 {
+  width: 100%
+}
+
+.title_3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: -10px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+
+.description_3 {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.link_3 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_gp_3 {
+  color: rgb(255, 253, 129);
+  font-weight: 700;
+}
+
+/* grad plan 4 section */
+
+.grad_plan_4 {
+  box-shadow: 0px 0px 10px 4px rgb(159, 218, 255);
+  border-radius: 20px;
+  width: 60%;
+  padding: 30px;
+  color: rgb(159, 218, 255);
+}
+
+.blurred_image_4 {
+  width: 100%
+}
+
+.title_4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: -10px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+
+.description_4 {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.link_4 {
+  display: flex;
+  justify-content: center;
+}
+
+.link_gp_4 {
+  color: rgb(159, 218, 255);
+  font-weight: 700;
+}
+
+/* title_1, description_1, link_gp_1 */
+
+@media screen and (min-width: 1440px) {
+  .title_1, .title_2, .title_3, .title_4 {
+    font-size: calc(30px + 12 * ((100vw - 1440px) / 400));
+  }
+
+  .description_1, .description_2, .description_3, .description_4 {
+    font-size: calc(16px + 6 * ((100vw - 1440px) / 400));
+  }
+
+  .link_gp_1, .link_gp_2, .link_gp_3, .link_gp_4 {
+    font-size: calc(16px + 6 * ((100vw - 1440px) / 400));
+  }
+
+  .in_page_title {
+    font-size: calc(40px + 18 * ((100vw - 1440px) / 400));
+  }
+
+  .disclaimer_section {
+    font-size: calc(16px + 6 * ((100vw - 1440px) / 400));
+  }
+}
+
+@media (max-width: 768px) {
+  .title_disclaimer_section {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .all_content_parent_container {
+    grid-template-columns: 1fr;
+  }
+
+  .grad_plan_3 {
+    box-shadow: 0px 0px 10px 4px rgb(159, 218, 255);
+    color: rgb(159, 218, 255);
+  }
+
+  .link_gp_3 {
+    color: rgb(159, 218, 255);
+  }
+
+  .grad_plan_4 {
+    box-shadow: 0px 0px 10px 4px rgb(255, 253, 129);
+    color: rgb(255, 253, 129);
+  }
+
+  .link_gp_4 {
+    color: rgb(255, 253, 129);
+  }
+}

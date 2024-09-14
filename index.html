@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+
+    <title>Home Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel = "stylesheet" href = "styles/header_footer.css">
+
+    <link rel = "stylesheet" href = "styles/home_general.css">
+    <link rel = "stylesheet" href = "styles/home_mission_statement.css">
+    <link rel = "stylesheet" href = "styles/home_general_guidelines.css">
+  </head>
+
+  <body>
+    <!--Header Section-->
+    <header class = "header">
+
+      <!--Left Section of Header-->
+      <!--Home Button-->
+      <div class = "left_section__parent_container">
+        <a class = "home_button_link" target = "_self" href = "index.html">ISH</a>
+      </div>
+      
+      <!--Right Section of Header-->
+      <!--Grad Plans, Web Links, Vid Links, About Us-->
+      <div class = "right_section_parent_container">        
+        <div class = "grad_plans_container">
+          <a class = grad_plans_link_container target = "_self" href = "grad_plans.html">
+            <button class = "grad_plans_button">
+              Graduation Plans
+            </button>
+          </a>
+        </div>
+
+        <div class = "web_links_parent_container">
+          <a class = "web_links_link_container" target = "_self" href = "web_links.html">
+            <button class = "web_links_button">
+              Website Links
+            </button>
+          </a>
+        </div>
+
+        <div class = "vid_links_parent_container">
+          <a class = "vid_links_link_container" target = "_self" href = "vid_links.html">
+            <button class = "vid_links_button">
+              Video Links
+            </button>
+          </a>
+        </div>
+      </div>
+      
+      <!--Hamburger Menu Section-->
+      <button class = "hamburger">
+        <div class= "bars"></div>
+      </button>
+    </header>
+
+    <nav class = mobile_nav>
+      <a target = "_self" href = "index.html">Home</a>
+      <a target = "_self" href = "grad_plans.html">Graduation Plans</a>
+      <a target = "_self" href = "web_links.html">Website Links</a>
+      <a target = "_self" href = "vid_links.html">Video Links</a>
+    </nav>
+      <!--End of Hamburger Menu Section-->
+
+    <!--Main Page Section-->
+    <main class = "main_page">
+      <!--Cover Photo Section-->
+      <div class = "cover_image_container">
+        <img class = "cover_image" src = "Images/cover photo.png">
+      </div>
+
+      <!--Mission Statement Section-->
+      <div class = "ms_parent_container"> <!--This is the center alignment container-->
+        <div class = "ms_secondary_container">
+          <!--Images for mission statement section-->
+          <div class = "ms_images_container">
+            <img class = "ms_images" src = "Images/mission statement images.png">
+          </div> 
+          <!--Mission Statement Paragraph-->
+          <div class = "ms_paragraph_container">
+            <div class = "ms_paragraph_secondary_container">
+              <p class = "ms_title">
+                Mission Statement
+              </p>
+              <p class = "ms_paragraph">InfoSphere Hub is a website created to assist incoming Freshmen, 
+                Sophomore, and Transfer students interested in the Information Science major at UMD. 
+                It aims to provide general guidance, answer questions, offer advice from experience, 
+                and facilitate networking opportunities to help students succeed. The InfoSphere Hub serves as a 
+                non-official website (meaning I'm not affiliated with anyone and have no plans to 
+                financially benefit from this website), offering access to important information and a way to 
+                personally contact upperclassmen of this initiative. This platform is designed to help new 
+                Information Science majors ease their transition into the major and navigate UMD's resources effectively.
+              </p>
+            </div>
+          </div>  
+        </div>
+      </div>
+
+      <!--Section divider-->
+      <div class = "section_divider"></div>
+      <!--Section divider-->
+
+      <!--General Guidelines Section-->
+      <div class = "gg_parent_container"> <!--This is the center alignment container-->
+        <div class = "gg_secondary_container">
+          <!--Images for general guidelines section-->
+          <div class = "gg_images_container">
+            <img class = "gg_images" src = "Images/general guidelines images.png">
+          </div>
+          <!--General Guidelines Paragraph-->
+          <div class = "gg_paragraph_container">
+            <div class = "gg_paragraph_secondary_container">
+              <p class = "gg_title">
+                General Guidelines
+              </p>
+              <p class = "gg_paragraph">Communication is primarily online with weekly schedules that I try to follow, depending 
+                on whether or not there are any responses to the Google Form. Throughout the week, I'll check the 
+                responses to the Google Form and respond as quickly as I can to any questions. The best time to submit the 
+                Google Form is on Fridays between 1:00 PM and 3:00 PM EST, as that is when I'll be able to respond the 
+                fastest. Responses are handled on a first-come, first-served basis. I can't predict the number of 
+                responses, so there may be days when I receive 30 responses and others when I receive none. Please be mindful 
+                of this when waiting for a response. The link to the Google Form is available at the bottom 
+                right corner of the website.
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <footer class = "footer">
+        <!--Credits Section-->
+        <div class = "credits_parent_container">
+          <p class = "credits_info">
+            &copy; 2024 InfoSphereHub | Amisiyas Seyoum
+          </p>
+        </div>
+        <!--Have any questions Section-->
+        <div class = "questions_parent_container">
+          <a class = "questions_link" href = "https://docs.google.com/forms/d/e/1FAIpQLSdwYjT2PrSJ5yA03h56uR-TjN3y1RNiznmNmfEAzibIaVKJeA/viewform?usp=sf_link" target = "_blank">
+            Have any questions?
+          </a>
+        </div>
+      </footer>
+    </main>
+    <script src = "hamburger.js"></script>
+  </body>
+</html>
