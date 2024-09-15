@@ -94,7 +94,7 @@
   }
 
   .video_title_link_1, .video_title_link_2, .video_title_link_3, .video_title_link_4,
-  .video_title_link_5, .video_title_link_6, .video_title_link_7, .video_title_link_7,
+  .video_title_link_5, .video_title_link_6, .video_title_link_7, .video_title_link_8,
   .video_title_link_9, .video_title_link_10 {
     font-size: calc(26px + 12 * ((100vw - 1440px) / 400));
   }
